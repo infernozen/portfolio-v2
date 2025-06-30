@@ -82,9 +82,12 @@ import {
   SiDocker,
   SiExpress,
   SiJest,
+  SiDialogflow,
+  SiCss3,
+  SiPacker,
 } from "react-icons/si";
 
-import { FaHardHat, FaRust } from "react-icons/fa";
+import { FaHardHat, FaNodeJs, FaRust } from "react-icons/fa";
 
 import { IoIosNotificationsOutline } from "react-icons/io";
 
@@ -392,152 +395,130 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Khoj",
-    github: "https://github.com/marcdhi/Khoj",
-    link: "https://devfolio.co/projects/khoj-3336",
+    title: "Faszen Tech",
+    github: "https://github.com/infernozen/faszen-frontend.git",
+    link: "https://ondc.org/blog/build-for-bharat/",
     image: khoj,
     content:
-      "Participate in AI-personalised treasure hunts where each clue is a physical location. Earn on-chain rewards and onboard a million users. Overall winning project at ETHIndia'24.",
+      "Faszen won the Conversational Interface category at BuildForBharat Hackathon, out of 27,000+ participants, earning a ₹2.5 lakh prize. Visit the repo for the full blog.",
     stack: [
       {
         id: "icon-1",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiFlutter,
+        name: "Flutter",
       },
       {
         id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        icon: FaNodeJs,
+        name: "Node.js",
       },
       {
         id: "icon-3",
-        icon: SiReact,
-        name: "React.js",
+        icon: SiDialogflow,
+        name: "Dialogflow",
       },
       {
         id: "icon-4",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiGooglecloud,
+        name: "Google Cloud",
       },
-      {
-        id: "icon-5",
-        icon: SiClaude,
-        name: "Claude Sonnet",
-      },
+      
     ],
   },
   {
     id: "project-2",
-    title: "Kosh SDK",
-    github: "https://github.com/mittal-parth/kosh-sdk",
-    link: "https://ethglobal.com/showcase/kosh-hk3mp",
+    title: "Mithran",
+    github: "https://github.com/infernozen/mithran-frontend-flutter.git",
+    link: "https://www.canva.com/design/DAGMcuOzq5o/5GP28N0-lNnJO3zf4cSwVQ/edit?utm_content=DAGMcuOzq5o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     image: kosh,
     content:
-      "Simple and secure way to interact with remote MCP Servers in Trusted Execution Environments (TEEs). Built at ETHGlobal Trifecta Hackathon.",
+      "Mithran reached the top 6 in Hack4Change for its impactful solution in the agriculture domain. Integrated Satellite Imagery, Weather Data, and Crop Disease Detection.",
     stack: [
       {
-        id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        id: "icon-1",
+        icon: SiFlutter,
+        name: "Flutter",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: FaNodeJs,
+        name: "Node.js",
       },
       {
-        id: "pl-2",
-        icon: SiPython,
-        name: "Python",
+        id: "icon-3",
+        icon: SiGooglemaps,
+        name: "Google Maps",
       },
+      {
+        id: "icon-4",
+        icon: SiGooglecloud,
+        name: "Google Cloud",
+      },
+      
     ],
   },
   {
     id: "project-3",
-    title: "Polkadot Dev CLI",
-    github: "https://github.com/mittal-parth/polkadot-dev-cli",
-    link: "https://crates.io/crates/polkadot-dev-cli",
+    title: "PetClinic - Deployment",
+    github: "https://github.com/infernozen/petclinic-devops",
     image: polkadot_dev_cli,
     content:
-      "CLI tool for Polkadot developers bundling linting, formatting, and version management. cargo install polkadot-dev-cli.",
+      "This project demonstrates the deployment of a self-healing Java application across multiple zones within a single region. Features include autoscaling and health checks to ensure high availability and reliability.",
     stack: [
       {
         id: "icon-1",
-        icon: FaRust,
-        name: "Rust",
+        icon: SiPacker,
+        name: "Packer",
       },
+      {
+        id: "icon-2",
+        icon: SiTerraform,
+        name: "Terraform",
+      },
+      {
+        id: "icon-3",
+        icon: SiDocker,
+        name: "Docker",
+      },
+      {
+        id: "icon-4",
+        icon: SiJenkins,
+        name: "Jenkins",
+      },
+      {
+        id: "icon-5",
+        icon: SiGooglecloud,
+        name: "Google Cloud Platform",
+      }
     ],
   },
   {
     id: "project-4",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://devfolio.co/projects/comicifyai-97a6",
+    title: "CurveTopia - ML Application",
+    github: "https://github.com/Rohith2825/AdobeGenSolve",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Secured Top 5 percentile in Adobe GenSolve. Employed various machine learning techniques including DeepFill , Loy-Eklundh algorithm.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiPython,
+        name: "Python",
       },
       {
         id: "icon-3",
         icon: SiOpenai,
         name: "OpenAI",
       },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask",
-      },
     ],
   },
   {
     id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
+    title: "Portfolio - V1",
+    github: "https://github.com/infernozen/portfolio-v1.git",
     image: recruitment,
     content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "A responsive personal portfolio built using React.js and Vanilla CSS, without any external styling libraries. Designed to showcase projects, skills, and contact information across both desktop and mobile platforms.",
     stack: [
       {
         id: "icon-1",
@@ -546,146 +527,18 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat",
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server",
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio",
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content: "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript",
+        icon: SiCss3,
+        name: "CSS",
       },
     ],
   },
   {
     id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
+    title: "Portfolio - V2",
+    github: "https://github.com/infernozen/portfolio-v2",
     image: portfolio,
     content:
-      "Open source developer portfolio template with modern UI/UX. 125+ stars on GitHub.",
+      "This portfolio website is based on Parth Mittal's open-source template. I customized and extended the original code using React and Tailwind CSS to better reflect my personal style, projects, and achievements.",
     stack: [
       {
         id: "icon-1",
